@@ -1,0 +1,30 @@
+.list-item {
+	border-bottom: solid 1px #f3f3f3;
+}
+
+.list-item span:not(.item-value) {
+	display: block;
+	float: right;
+	height: 20px;
+	width: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: red;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.list-item span.item-value {
+}
+
+.list-item input {
+	display: none;
+}
+
+.list-item.edit input {
+	display: block;
+}
+
+.edit {
+
+}
